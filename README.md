@@ -17,6 +17,9 @@ Although different kinds of architechture is widely used for time series forecas
    ```
 
 ## Usage
+N-NEATS has two configurations of the architecture. One of them is generic DL, the other one is augmented with certain inductive biases to be interpretable.The generic architecture does not rely on Time Series-specific knowledge. The interpretable architecture can be constructed by reusing the overall architectural approach and by adding structure to basis layers at stack level.
+
+Here we are showing the usage of Generic model.
 
 ```python
 from nbeats import NBeatsNet
