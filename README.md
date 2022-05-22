@@ -12,6 +12,6 @@ Although different kinds of architechture is widely used for time series forecas
 
 1. Install Pytorch >= v.1.8.0
 2. Clone this Repository.
-   ```
+   ```linux
    git clone https://github.com/itzzdeep/nbeats_revin.git
    ```
