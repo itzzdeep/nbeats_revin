@@ -1,4 +1,4 @@
-# N-BEATS: Neural basis expansion analysis for interpretable time series forecasting and Reversible Instance Normalization for Accurate Time-Series Forecasting against Distribution Shift
+# N-BEATS: Neural basis expansion analysis for interpretable time series forecasting and Reversible Instance Normalization for Accurate Time-Series Forecasting against Distribution Shift (RevIN)
 
 Pytorch Implementation of N-BEATS and RevIN
 
