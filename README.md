@@ -15,3 +15,22 @@ Although different kinds of architechture is widely used for time series forecas
    ```linux
    git clone https://github.com/itzzdeep/nbeats_revin.git
    ```
+
+## Usage
+
+```python
+from nbeats import NBeatsNet
+from RevIN import RevIN
+
+net = NBeatsNet(
+        stack_types=(NBeatsNet.GENERIC_BLOCK, NBeatsNet.GENERIC_BLOCK),
+        forecast_length=forecast_length,
+        backcast_length=backcast_length,
+        hidden_layer_units=128,
+    )
+    
+revin_layer = RevIN(num_features)
+x_in = revin_layer(x_in, 'norm')
+x_out = blocks(x_in) # your model or subnetwork within the model
+x_out = revin_layer(x_out, 'denorm')
+```
