@@ -34,6 +34,6 @@ net = NBeatsNet(
     
 revin_layer = RevIN(num_features)
 x_in = revin_layer(x_in, 'norm')
-x_out = blocks(x_in) # your model or subnetwork within the model
+x_out = net(x_in) # your model or subnetwork within the model
 x_out = revin_layer(x_out, 'denorm')
 ```
