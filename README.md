@@ -38,3 +38,8 @@ x_in = revin_layer(x_in, 'norm')
 x_out = net(x_in) # your model or subnetwork within the model
 x_out = revin_layer(x_out, 'denorm')
 ```
+
+Or you can train the model using this 
+```
+python train.py --dataset PATH OF DATASET --column COLUMN NAME OF TS IN DATA --fcast_length FORECAST LENGTH
+```
